@@ -20,5 +20,27 @@ namespace kleurenpsychologie
         {
             InitializeComponent();
         }
+
+        private void roodImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush(Colors.Red);
+
+        }
+
+        private void groenImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush(Colors.Green);
+
+        }
+
+        private void blauwImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush(Colors.Blue);
+        }
+
+        private void geelImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.Background = new SolidColorBrush(Colors.Yellow);
+        }
     }
 }

@@ -13,6 +13,10 @@
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="21,41,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
         <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="666,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image x:Name="roodImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="71,101,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png" MouseEnter="roodImage_MouseEnter"/>
+        <Image x:Name="geelImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="326,101,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseEnter="geelImage_MouseEnter"/>
+        <Image x:Name="groenImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="71,229,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseEnter="groenImage_MouseEnter"/>
+        <Image x:Name="blauwImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="326,229,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blauwImage_MouseEnter"/>
 
     </Grid>
 </Window>
