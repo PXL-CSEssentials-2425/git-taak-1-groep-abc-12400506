@@ -42,5 +42,30 @@ namespace kleurenpsychologie
         {
             this.Background = new SolidColorBrush(Colors.Yellow);
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void roodImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextbox.Text = "#FF0000";
+        }
+
+        private void geelImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextbox.Text = "#FFFF00";
+        }
+
+        private void groenImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextbox.Text = "#008000";
+        }
+
+        private void blauwImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextbox.Text = "#0000FF";
+        }
     }
 }
