@@ -12,13 +12,15 @@
             <ColumnDefinition Width="97*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="21,41,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="666,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="603,22,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
         <Image x:Name="roodImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="71,101,0,0" VerticalAlignment="Top" Width="100" Source="/Rood.png" MouseEnter="roodImage_MouseEnter" MouseLeftButtonDown="roodImage_MouseLeftButtonDown"/>
         <Image x:Name="geelImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="326,101,0,0" VerticalAlignment="Top" Width="100" Source="/Geel.png" MouseEnter="geelImage_MouseEnter" MouseLeftButtonDown="geelImage_MouseLeftButtonDown"/>
         <Image x:Name="groenImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="71,229,0,0" VerticalAlignment="Top" Width="100" Source="/Groen.png" MouseEnter="groenImage_MouseEnter" MouseLeftButtonDown="groenImage_MouseLeftButtonDown"/>
         <Image x:Name="blauwImage" Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="326,229,0,0" VerticalAlignment="Top" Width="100" Source="/Blauw.png" MouseEnter="blauwImage_MouseEnter" MouseLeftButtonDown="blauwImage_MouseLeftButtonDown"/>
         <TextBox x:Name="kleurcodeTextbox" Grid.Column="1" HorizontalAlignment="Left" Margin="107,346,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="46,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56"><Run Text="Kleur"/><Run Language="nl-be" Text="code:"/><LineBreak/><Run Language="nl-be"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="44,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Informatie"/><Run Language="nl-be" Text=":"/><LineBreak/><Run Language="nl-be"/></TextBlock>
+        <TextBox x:Name="informatieTextbox" Grid.Column="1" HorizontalAlignment="Left" Margin="107,377,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="410" TextChanged="TextBox_TextChanged_1"/>
 
     </Grid>
 </Window>
